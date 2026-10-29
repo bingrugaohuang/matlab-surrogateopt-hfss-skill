@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "sim_id": "synthetic-simulation-v1",
+  "score_id": "synthetic-four-curve-score-v1",
+  "units": {"S21": "dB", "GD": "ns", "S11": "dB", "S22": "dB"},
+  "scales": {"S21": 2, "GD": 2, "S11": 2, "S22": 2},
+  "weights": {"S21": 2, "GD": 2, "S11": 1, "S22": 1},
+  "baseline_id": "baseline",
+  "candidates": [
+    {"id":"baseline","sim_id":"synthetic-simulation-v1","score_id":"synthetic-four-curve-score-v1","status":"ok","quality":"exported","rmse":{"S21":2,"GD":3,"S11":4,"S22":4}},
+    {"id":"best-total","sim_id":"synthetic-simulation-v1","score_id":"synthetic-four-curve-score-v1","status":"ok","quality":"converged","rmse":{"S21":3,"GD":1,"S11":2,"S22":2}},
+    {"id":"best-s21","sim_id":"synthetic-simulation-v1","score_id":"synthetic-four-curve-score-v1","status":"ok","quality":"converged","rmse":{"S21":1,"GD":3,"S11":3,"S22":3}},
+    {"id":"balanced","sim_id":"synthetic-simulation-v1","score_id":"synthetic-four-curve-score-v1","status":"ok","quality":"precision_validated","rmse":{"S21":2.2,"GD":2.2,"S11":2.2,"S22":2.2}},
+    {"id":"failed","sim_id":"synthetic-simulation-v1","score_id":"synthetic-four-curve-score-v1","status":"failed","quality":"exported","rmse":{"S21":0,"GD":0,"S11":0,"S22":0}},
+    {"id":"best-total","sim_id":"synthetic-simulation-v1","score_id":"synthetic-four-curve-score-v1","status":"ok","quality":"converged","rmse":{"S21":3,"GD":1,"S11":2,"S22":2}}
+  ]
+}
