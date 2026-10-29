@@ -1,0 +1,4 @@
+interface:
+  display_name: "MATLAB surrogateopt + HFSS"
+  short_description: "Reliable MATLAB-HFSS optimization and recovery workflows"
+  default_prompt: "使用 $matlab-surrogateopt-hfss 检查我的优化入口、预算和恢复机制，并先给出不影响现有运行的改进。"
